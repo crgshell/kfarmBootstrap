@@ -1,0 +1,376 @@
+
+  
+
+
+body {
+  font-family: 'courier new', courier, sans-serif;
+  color: #555;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+
+a {
+	text-decoration: none;
+	color: #2ec371;
+}
+
+h1, h2, h3 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: 500;
+}
+h3 {
+	font-size: 14px;
+	font-weight: 500;
+}
+p {
+	font-size: 16px;
+	font-weight: 400;
+}
+blockquote {
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+pre {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+section {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
+/* Navbar */
+#header-title {
+	float: left;
+	padding-top: 15px;
+	margin-bottom: 0px;
+}
+
+#header-nav {
+  float: right;
+  margin-top: 26px;
+}
+
+#header-nav li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#header-nav li a {
+	display: block;
+	padding: 15px;
+}
+
+#header-nav li a:hover {
+	background-color: #fefefe;
+}
+
+.nav.navbar-nav li a {
+    color: #2ec371;
+}
+
+.nav.navbar-nav li a:hover  {
+    color: blue;
+}
+
+
+.navbar-brand {
+	float: left;
+	margin: 0;
+	height: 100px;
+
+
+} 
+
+#bio-med{
+	max-height: 100px;		
+
+}
+
+
+/* navbar */
+#navbar-default {
+    background-color: #FF0000;
+        
+
+}
+
+
+
+
+
+/* Top Section Styling */
+
+#top {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+	background-color: #cecece;
+	padding-top: 180px;
+	padding-bottom: 180px;
+	margin-top: 20px;
+	/* background: url(../img/hero-bg-dark.jpg) no-repeat center center; */
+	/* background: url(../img/mtk1.jpg) no-repeat center center; */
+	/* background: url(../img/imageMain_65_846.jpg) no-repeat center center; */
+	background: url(../img/slide1back-2.jpg) no-repeat center center;
+	
+	background-size: cover; 
+}
+
+
+
+
+
+
+#top h1 {
+
+   color: #2ec371;
+   font-weight: 800;
+   font-size: 32px;
+  
+
+}
+
+#top h2 {
+	color: #cecece;
+	font-weight: 200;
+}
+
+#top h3{
+
+  line-height: 1.2em;
+  font-weight: 200;
+  color: #fefefe;
+  text-shadow: -2px -1px 22px rgba(150, 154, 154, 1);
+ 
+}
+
+.skinny {
+
+  color: #fefefe;
+  font-weight: 100;
+  font-size: 32px;
+  
+}
+
+/*.container{
+	width: 970px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+} */
+
+p {
+	margin-bottom: 20px;
+}
+
+
+#top fieldset {
+	width: 400px;
+  margin: 20px auto;
+}
+
+#top input[type="text"] {
+	padding: 10px;
+  width: 70%;
+ border-radius: 5px;
+  font-size: 20px;
+}
+
+#top input[type="text"]:focus {
+	outline: 0;
+ border: 1px solid red;
+}
+
+#top input[type="submit"] {
+ padding: 15px;
+ background-color: #2ec371;
+  border: 1px solid #2ec371;
+ border-radius: 5px;
+ font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#featuresHeading {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#featuresHeading h2 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+#featuresHeading h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+
+
+#features {
+	text-align: center;
+}
+
+#features h2 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+#features  h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+#cbc {
+	padding-top: 30px;
+}
+
+
+
+#last {
+	margin-bottom: 180px;
+}
+
+/* #footer {
+	position: fixed; 
+	bottom: 0;
+	width: 100%;
+	clear:both;
+	max-height:100px;
+	background-color: #ececec;
+	padding: 10px;
+	
+} */
+
+#footer {
+
+	background-color: #ececec;
+}
+
+
+/*ul.unstyled {
+	list-style: none;
+	padding-bottom: 10px;
+	text-align: left;
+} */
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+	.jumbotron { height: 210px;}
+
+
+
+	.jumbotron h1 {
+		font-size: 18px;
+
+}
+
+   .skinny {
+   	font-size: 18px;
+   	
+   }
+
+   .farms {
+   	color: #fefefe;
+   	font-size: 18px;
+   	  /* -webkit-text-stroke-width: 1px;
+       -webkit-text-stroke-color: #fefefe; */
+
+   }
+
+   .kon {
+   
+   	font-size: 18px;
+   }
+
+   a {
+   	font-size: 10px;
+   }
+  
+  
+
+
+
+   #top {
+
+   
+		background: url(../img/kfarm-mdc.jpg) top center no-repeat;
+		background-size: cover; 
+   }
+
+   #brand {
+   	height: 50px;
+   }
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
+
+#about{
+	padding-top: 100px;
+}
+
+#coop {
+	padding-top: 85px;
+}
+
+#partner {
+	padding-top: 30px;
+}
+
+#contact{
+	padding-top: 30px;
+}
+
+
